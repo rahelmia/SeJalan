@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.container-content{
+    height: 105vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.elipsbox-2{
+    height: 311px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.elipsbox-1{
+    height: 311px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+
+.wrapper-content{
+    width: 100%;
+    position: absolute;
+}
+.wrapper-content-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.left-box{
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+.right-box{
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+
+.imgleft{
+    margin-right: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.imgleft1{
+    margin-top: 60px;
+    object-fit: cover;
+    width: 320px;
+    height: 180px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.imgright1{
+    margin-top: 30px;
+    object-fit: cover;
+    width: 320px;
+    height: 180px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.imgleft2{
+    margin-top: 20px;
+    width: 320px;
+    object-fit: cover;
+    height: 400px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.imgright2{
+    margin-top: 20px;
+    width: 320px;
+    object-fit: cover;
+    height: 550px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.imgright{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.tabbar{
+    margin-top: 50px;
+    height: 55px;
+    width: 1410px;
+    background: #C36A2D;
+    border-radius: 53px;
+}
+
+.btnt{
+    text-decoration: none;
+    color: white;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    text-align: center; 
+
+    border-radius: 53px;
+    height: 55px;   
+    float: left;
+    width: 470px;
+    text-align: center;
+}
+.btnt-a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    text-align: center; 
+    
+    background: #E2C275;
+    border-radius: 53px;
+    height: 55px;   
+    float: left;
+    width: 470px;
+    text-align: center;
+}
+
+
+.wrappertabbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btnt:hover{
+    color: white;
+}
+.btnt-a:hover{
+    color: white;
+}
+
+
+.box-head{
+    margin-left: 50px;
+    margin-top: 170px;
+}
+
+.title-head{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    align-items: center;
+
+    color: #C36A2D;
+}
+.box-dec{
+    margin-top: 110px;
+    width: 210px;
+    height: 70px;
+    position: absolute;
+    background: #d9d9d99b;
+}
+
+.subtitle-head{
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #C36A2D;
+}
+
+.content{
+    justify-content: left;
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 90%;
+}
+
+
+.img-content{
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid #C36A2D;
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 249px;
+}
+
+.card-content{
+    height: 470px;
+    margin: 52px;
+    width: 350px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 15px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.title-card{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.wrapper-body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-child{
+    padding: 20px;
+}
+
+.lokasi-txt{
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.box{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 680px;
+    width: 100%;
+    border: 1px solid #C36A2D;
+    background-color: white;
+    border-radius: 17px;
+    margin-left: 50px;
+}
+.box .search-box{
+    margin-top: 10px;
+    border-radius: 17px;
+    position: relative;
+    height: 51px;
+    margin: auto;
+    max-width: 680px;
+}
+
+.search-box input{
+    height: 51px;
+    border-radius: 17px;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    width: 600px;
+  }
+.search-box .icon{
+    border: 1px solid #C36A2D;
+    top: -1px;
+    position: absolute;
+    right: -2px;
+    height: 53px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    background: #D9D9D9;
+    color: #C36A2D;
+    width: 65px;
+    border-radius: 17px; 
+}
+
+.btnc{
+    color: black;
+    text-decoration: none;
+}
+
+.btnc:hover{
+    color: black;
+}
+
+.title-content{
+    float: left;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.box-category{
+    float: right;
+    width: 128px;
+    height: 28px;
+
+    background: #C36A2D;
+    border-radius: 30px;
+
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+
+.subtitle{
+    float: left;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.btn-content{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 403px;
+    top: 991px;
+
+    background: #C36A2D;
+    border: 1px solid #C36A2D;
+    box-shadow: 0px 4px 13px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+
+    color: #FFFFFF;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.img-content-2{
+    border-radius: 6px;
+    width: 348px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.wrapper-content2{
+    margin-left: 20px;
+}
+
+.container-content-box{
+    margin-top: 5px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}

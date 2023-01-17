@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+#title-navbar{
+  margin-left: 20px;
+  font-size: 28px;
+  font-family: 'Nerko One';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #C36A2D;
+}
+#title-footer{
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 28px;
+  font-family: 'Nerko One';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #C36A2D;
+}
+
+#navbar{
+  background-color: #D9D9D9;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: 0px 4px 14px 11px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link-custom{
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link-custom:hover{
+  color: #94711f;
+}
+.nav-link-custom-a{
+  margin: 20px;
+  text-decoration: none;
+  color: #E2C275;
+}
+.nav-link-custom-a:hover{
+  color: #E2C275;
+}
+
+footer{
+  padding: 20px;
+  background: #E2C275;
+  bottom: 0;
+}
+
+.content-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-copyright{
+  font-family: 'Nerko One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #C36A2D;
+
+}
+
+.copyright-img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.seal-img{
+  float: right;
+  height: 50px;
+}
+
+.disbupar-img{
+  float: right;
+  height: 50px;
+}
+
+.img-profile-navbar{
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.wrapper-profile{
+  padding: 20px;
+}
+
+
+.btn-logout{
+  
+  color: red;
+  font-weight: bold;
+  border: none;
+  margin-left: 20px;
+  background-color: transparent;
+}

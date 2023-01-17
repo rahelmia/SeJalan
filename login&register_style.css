@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('../Assets/Semarang.jpeg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+
+.container{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    border: 0;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.title{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+.boxcolumn{
+    border-radius: 5px;
+    width: 400px;
+    height: 55px;
+    background-color: rgb(206, 206, 206);
+}
+
+.icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.input{
+    height: 55px;
+    background-color: transparent;
+    width: 300px;
+    border: 0;
+}
+
+.input:focus{
+    outline: none;
+    background-color: transparent;
+}
+.input:hover{
+    outline: none;
+    background-color: transparent;
+}
+
+.pass{
+    margin-top: 30px;
+    background-color: black;
+    margin-top: 15px;
+    width: 400px;
+    border: 0;
+    
+}
+
+.wrapper-btnforget{
+    width: 100%;
+}
+
+.forgetpw
+{
+    float: right;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+
+.content{
+    width: 400px;
+}
+
+
+#loginbtn{
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    background-color: #C36A2D;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#loginbtn:hover{
+    background-color: #79370b;
+}
+
+.gotoregistertxt{
+    float: left;
+}
+
+.gotoregisterbtn
+{
+    float: left;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+
+.glassbg{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.336);
+    height: 100vh;
+    backdrop-filter: blur(2px);
+}
